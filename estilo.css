@@ -1,0 +1,28 @@
+body{
+    box-sizing: content-box;
+    display:flex;
+    width: 100%;
+    height: 100%;
+}
+#envoltorio{
+
+
+
+}
+
+#envoltorio img{
+    width: 90%;
+    height: 80%;
+    margin-left: 100px;
+    
+}
+
+#envoltorio footer{
+background-color:plum;
+width: 90%;
+height: 20%;
+margin-left: 100px;
+
+
+
+}

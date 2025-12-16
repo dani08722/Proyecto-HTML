@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #envoltorio{
@@ -16,12 +17,22 @@
 }
 
 #envoltorio #contenido main{
-    
+    padding: 10px;
 
     flex-basis: 75%;
     flex-grow: 1;
     flex-shrink: 1;
 }
+
+#envoltorio #contenido main h1{
+    font-size: 54px;
+    text-transform: uppercase;
+}
+
+#envoltorio #contenido main ul{
+    font-size: 20px;
+}
+
 
 #envoltorio #contenido main ul li a{
     text-decoration: none;

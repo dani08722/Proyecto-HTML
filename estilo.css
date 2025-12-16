@@ -1,8 +1,39 @@
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#envoltorio{
+    width: 80%;
+    margin: 0 auto;
+    min-width: 900px;
+}
+
+#envoltorio #contenido{
+    display: flex;
+    align-items: stretch;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+#envoltorio #contenido main{
+    
+
+    flex-basis: 75%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#envoltorio #contenido main ul li a{
+    text-decoration: none;
+}
+
+#envoltorio #contenido aside{
+    background-color: black;
+    color: white;
+
+    flex-basis: 25%;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 header img{

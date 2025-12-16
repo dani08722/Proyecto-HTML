@@ -1,12 +1,14 @@
 *{
     box-sizing: border-box;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
 
 #envoltorio{
     width: 80%;
     margin: 0 auto;
     min-width: 900px;
+    background-color: rgb(189, 189, 121);
 }
 
 #envoltorio #contenido{

@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    font-family:'Arial Narrow Bold', sans-serif;
+}
+
+#envoltorio{
+    width: 80%;
+    margin: 0 auto;
+    min-width: 900px;
+    background-color: rgb(0, 0, 0);
+}
+
+header img{
+    display: block;
+    margin: auto;
+    width: 65%;
+    height: 275px;
+}
+
+#envoltorio #contenido{
+    color: white;
+    display: flex;
+    align-items: stretch;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+#envoltorio #contenido main{
+    padding: 20px 40px;
+
+    flex-basis: 75%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#envoltorio #contenido main #imgGrande>img{
+    width: 85%;
+    margin-left: 30px;
+}
+
+#envoltorio #contenido main h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+#envoltorio #contenido main ul{
+    font-size: 20px;
+    list-style-type: none;
+}
+
+#envoltorio #contenido main ul li a{
+    text-decoration: none;
+    color: rgb(180, 175, 235);
+}
+
+#envoltorio #contenido aside{
+    padding: 15px 20px;
+
+    flex-basis: 25%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#envoltorio #contenido aside h2{
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+#envoltorio #contenido aside .anuncio img{
+            display: block;
+			width: 90%;
+            margin: auto;
+			padding-top: 5px;
+}
+
+#envoltorio #contenido aside .anuncio img+p{
+			width: 75%;
+			margin: 3px auto;
+			text-align: center;			
+}
+
+#envoltorio footer{
+    display: flex;
+    background-color: plum;
+    width: 100%;
+    height: 10%;
+    padding: 10px;
+    justify-content: center;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+
+#envoltorio footer li {
+    padding: 10px;
+    list-style-type: none;
+}

@@ -132,7 +132,71 @@ aside:hover img{
     flex-grow: 1;
     flex-shrink: 1;
 
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(0, 0, 0);
     border-radius: 15px;
     margin-bottom: 20px;
+}
+
+.envoltorio>.mapas>h1{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.envoltorio .mapas{
+    padding: 20px 40px;
+
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.envoltorio .mapas img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.envoltorio #carrusel{
+    display: flex;
+    width: 100%;
+}
+
+.envoltorio #carrusel div{
+    flex-basis: 50%;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+
+
+.envoltorio #carrusel div#flechaIzquierda{
+    flex-basis: 20%;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    color: white;
+    align-self: center;
+    font-size: 40px;
+    width: 30px;
+    height: auto;
+}
+
+.envoltorio #carrusel div#flechaDerecha{
+    flex-basis: 20%;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    text-align: right;
+    color: white;
+    align-self: center;
+    font-size: 40px;
+    width: 30px;
+    height: auto;
 }

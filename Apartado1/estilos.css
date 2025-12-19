@@ -16,6 +16,7 @@
     box-sizing: border-box;
 }
 
+
 header img{
     display: block;
     margin: auto;
@@ -40,3 +41,23 @@ background-color: plum;
 
 
 }
+
+#envoltorio main{
+background-color: black;
+display: flex;
+gap: 15px;
+padding: 15px;
+
+
+
+}
+
+main img{ 
+
+    display: block;
+    
+    width: 15%;
+
+    
+}
+

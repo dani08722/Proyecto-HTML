@@ -3,7 +3,7 @@
     font-family:'Arial Narrow Bold', sans-serif;
 }
 
-#envoltorio{
+.envoltorio{
     width: 80%;
     margin: 0 auto;
     min-width: 900px;
@@ -17,7 +17,7 @@ header img{
     height: 275px;
 }
 
-#envoltorio #contenido{
+.envoltorio #contenido{
     color: white;
     display: flex;
     align-items: stretch;
@@ -25,35 +25,42 @@ header img{
 	flex-direction: row;
 }
 
-#envoltorio #contenido main{
+.envoltorio #contenido main{
     padding: 20px 40px;
 
-    flex-basis: 75%;
+    flex-basis: 100%;
     flex-grow: 1;
     flex-shrink: 1;
 }
 
-#envoltorio #contenido main #imgGrande>img{
+.envoltorio>main>a>img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.envoltorio #contenido main #imgGrande>img{
     width: 85%;
     margin-left: 30px;
 }
 
-#envoltorio #contenido main h1{
+.envoltorio #contenido main h1{
     font-size: 50px;
     text-transform: uppercase;
 }
 
-#envoltorio #contenido main ul{
+.envoltorio #contenido main ul{
     font-size: 20px;
     list-style-type: none;
 }
 
-#envoltorio #contenido main ul li a{
+.envoltorio #contenido main ul li a{
     text-decoration: none;
     color: rgb(180, 175, 235);
 }
 
-#envoltorio #contenido aside{
+.envoltorio #contenido aside{
     padding: 15px 20px;
 
     flex-basis: 25%;
@@ -61,20 +68,20 @@ header img{
     flex-shrink: 1;
 }
 
-#envoltorio #contenido aside h2{
+.envoltorio #contenido aside h2{
     text-align: center;
     font-size: 28px;
     text-transform: uppercase;
 }
 
-#envoltorio #contenido aside .anuncio img{
+.envoltorio #contenido aside .anuncio img{
             display: block;
 			width: 90%;
             margin: auto;
 			padding-top: 5px;
 }
 
-#envoltorio #contenido aside .anuncio img+p{
+.envoltorio #contenido aside .anuncio img+p{
 			width: 75%;
 			margin: 3px auto;
 			text-align: center;
@@ -82,7 +89,8 @@ header img{
             padding-bottom: 18px;			
 }
 
-#envoltorio footer{
+.envoltorio footer{
+    flex-basis: 100%;
     display: flex;
     background-color: plum;
     width: 100%;
@@ -93,11 +101,38 @@ header img{
     box-sizing: border-box;
 }
 
-#envoltorio footer li {
+.envoltorio footer li {
     padding: 10px;
     list-style-type: none;
 }
 
 aside:hover img{
     scale: calc(1.1);
+}
+
+.envoltorio>nav>div>.apartado1{
+    margin-left: 20px;
+    padding: 10px;
+    color:rgb(77, 110, 201);
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.envoltorio>#mainApartado1>div{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.envoltorio>#mainApartado1>div>img{
+    flex-basis: 20%;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    background-color: rgb(20, 20, 20);
+    border-radius: 15px;
+    margin-bottom: 20px;
 }

@@ -128,11 +128,22 @@ aside:hover img{
 }
 
 .envoltorio>#mainApartado1>div>img{
-    flex-basis: 20%;
+    flex-basis: 25%;
     flex-grow: 1;
     flex-shrink: 1;
-
+    width: 15%;
     background-color: rgb(20, 20, 20);
     border-radius: 15px;
     margin-bottom: 20px;
+    padding: 15px;
+}
+
+.envoltorio>#mainBlog{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+#mainBlog hr{
+    color: white;
 }

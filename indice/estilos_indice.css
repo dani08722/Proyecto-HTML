@@ -82,11 +82,26 @@ header img{
 			padding-top: 5px;
 }
 
+.envoltorio #contenido aside .anuncio video{
+            display: block;
+			width: 100%;
+            margin: auto;
+			padding-top: 5px;
+}
+
 .envoltorio #contenido aside .anuncio img+p{
 			width: 75%;
 			margin: 3px auto;
 			text-align: center;
             padding: 8px;
+            padding-bottom: 18px;			
+}
+
+.envoltorio #contenido aside .anuncio video+p{
+			width: 75%;
+			margin: 1px auto;
+			text-align: center;
+            
             padding-bottom: 18px;			
 }
 

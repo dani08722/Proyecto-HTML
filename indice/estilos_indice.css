@@ -198,16 +198,12 @@ header img{
     margin-top: 20px;
 }
 
-
-
-
-
-
 .envoltorio #carrusel div#flechaIzquierda{
     flex-basis: 20%;
     flex-grow: 1;
     flex-shrink: 1;
 
+    margin-top: 250px;
     color: white;
     align-self: center;
     font-size: 40px;
@@ -220,6 +216,7 @@ header img{
     flex-grow: 1;
     flex-shrink: 1;
 
+    margin-top: 250px;
     text-align: right;
     color: white;
     align-self: center;

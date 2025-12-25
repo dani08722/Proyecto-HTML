@@ -107,10 +107,6 @@ header img{
     list-style-type: none;
 }
 
-aside:hover img{
-    scale: calc(1.1);
-}
-
 .envoltorio>nav>div>.apartado1{
     margin-left: 20px;
     padding: 10px;
@@ -139,25 +135,24 @@ aside:hover img{
     padding: 15px;
 }
 
-.envoltorio>#mainBlog{
+.envoltorio #mainBlog{
+    flex-basis: 60%;
+    flex-grow: 1;
+
     background-color: black;
     color: white;
     padding: 20px;
     width: 50%;
-    text-align: center;
     margin-left:350px;
-    
 }
-
-
 
 #mainBlog hr{
     color: white;
 }
 
-
-
-
+#noticia{
+    text-align: center;
+}
 
 #noticia img {
     width: 300px;
@@ -165,32 +160,5 @@ aside:hover img{
     margin-right: 20px; 
     margin-top: 20px;
 }
-
-#unreal img {
-    width: 300px;
-    float: right;       
-    margin-left: 20px;  
-    margin-top: 20px;
-    height: 210px;
-}
-
-#fncs img{
-    width: 300px;
-    float: left;        
-    margin-right: 20px; 
-    margin-top: 20px;
-    display: block;
-    
-
-}
-#movil img{
-    width: 300px;
-    float: right;       
-    margin-left: 20px;  
-    margin-top: 20px;
-    height: 210px;
-
-}
-
 
 
